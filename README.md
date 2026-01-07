@@ -16,7 +16,7 @@ By running thousands of simulated rounds, the script provides statistical eviden
 ## Features
 
 - Simulate both Martingale and Inverse Labouchère strategies
-- Configurable parameters (starting bankroll, bet size, number of rounds)
+- Configurable parameters (starting bankroll, bet size)
 - Statistical analysis of win/loss patterns
 - Visual representation of bankroll progression over time
 - Demonstrates the mathematical certainty of the house edge
@@ -38,4 +38,16 @@ The simulations consistently demonstrate that:
 - Increasing bet sizes accelerates losses rather than preventing them
 
 ## Usage
+
+[+] User panel: ./ruleta.sh
+
+	-m) Betting money
+	-t) Techinique
+		- Martingala 
+		- InverseLabrouchere
+	-h) Help
+
+	[+] Use example:  ./ruleta.sh -m 100 -t martingala
+  [+] Use example:  ./ruleta.sh -m 100 -t inverseLabrouchere
+  
 
